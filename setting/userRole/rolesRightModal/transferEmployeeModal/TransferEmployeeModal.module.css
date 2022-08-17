@@ -1,0 +1,10 @@
+.staffListContainer {
+  height: calc(100vh - 500px);
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.staffListContainer::-webkit-scrollbar {
+  display: none;
+}

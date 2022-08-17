@@ -1,0 +1,11 @@
+.employeeListContainer {
+  height: 350px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.employeeListContainer::-webkit-scrollbar {
+  display: none;
+}

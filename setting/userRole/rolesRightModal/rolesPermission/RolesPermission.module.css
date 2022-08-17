@@ -1,0 +1,47 @@
+.rolesListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 265px);
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+
+.rolesListContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(211, 211, 211, 0.573);
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.titleContainer {
+  margin-bottom: -15px;
+}
+
+.editAndViewContainer {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -15px;
+}
+
+.rolesData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkboxContainer {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

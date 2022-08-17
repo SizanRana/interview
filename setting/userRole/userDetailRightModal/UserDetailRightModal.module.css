@@ -1,0 +1,48 @@
+.userImageContainer {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.profileImageContaimer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.profileImage {
+  height: 100px;
+  width: 100px;
+  margin-top: 95px;
+  border-radius: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.staffPosition {
+  font-size: 0.9rem;
+  padding: 5px 10px 5px 10px;
+  background-color: #f8f8f8;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.userSkill {
+  font-size: 0.9rem;
+  padding: 5px 10px 5px 10px;
+  background-color: #f8f8f8;
+  width: fit-content;
+  border-radius: 5px;
+}

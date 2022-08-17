@@ -1,0 +1,8 @@
+.rolesCardContainer {
+  height: calc(100vh - 95px) !important;
+  overflow-y: scroll;
+}
+
+.rolesCardContainer::-webkit-scrollbar {
+  display: none;
+}

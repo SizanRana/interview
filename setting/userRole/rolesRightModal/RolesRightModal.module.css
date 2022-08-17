@@ -1,0 +1,34 @@
+.canvasContainer {
+  padding: 20px 20px 30px 20px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdownMenu {
+  width: 200px;
+}
+
+.dropdownItem {
+  width: 90% !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+.dropdownText {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.optionButton {
+  margin-left: 15px;
+}

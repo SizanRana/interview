@@ -1,0 +1,7 @@
+.modalBody {
+  padding: 20px !important;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center;
+}

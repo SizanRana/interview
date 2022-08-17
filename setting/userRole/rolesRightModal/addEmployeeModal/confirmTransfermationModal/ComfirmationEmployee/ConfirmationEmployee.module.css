@@ -1,0 +1,39 @@
+.staffMainContainer {
+  margin-top: 30px;
+}
+
+.staffInnerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employeeDetailsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.userInfoContainer {
+  margin-left: 17px;
+}
+
+.name {
+  margin-bottom: -2px;
+}
+
+.roleDetailsContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.383);
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+}
+
+.rightIconContainer {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.role {
+  margin-bottom: 0px;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,30 @@
+.employeeDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userDetailsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.employeeNameEmail {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -8px;
+  margin-left: 15px;
+}
+
+.employeeName {
+  margin-bottom: 0px;
+}
+
+.roleDetailsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.groupName {
+  margin-bottom: 0px;
+}

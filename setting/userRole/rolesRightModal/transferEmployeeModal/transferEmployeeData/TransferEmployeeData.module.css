@@ -1,0 +1,48 @@
+.staffsMainContainer {
+  margin-top: 20px;
+}
+
+.userInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userDetailContainer {
+  display: flex;
+  align-items: center;
+}
+
+.userNameEmailContainer {
+  margin-left: 15px;
+}
+
+.staffName {
+  margin-bottom: 0px;
+}
+
+.staffEmail {
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+}
+
+.dropdownMenuContainer {
+  max-height: 400px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.dropdownMenuContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.dropdownItem {
+  width: 90% !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}

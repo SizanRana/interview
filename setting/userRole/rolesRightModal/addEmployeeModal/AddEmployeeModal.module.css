@@ -1,0 +1,11 @@
+.staffList {
+  height: 350px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.staffList::-webkit-scrollbar {
+  display: none;
+}

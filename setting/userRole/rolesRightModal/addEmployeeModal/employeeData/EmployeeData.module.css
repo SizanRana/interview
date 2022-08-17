@@ -1,0 +1,32 @@
+.selectedEmployee {
+  border: 1px solid #da081a82;
+  padding: 0px 20px 10px 10px;
+  border-radius: 5px;
+}
+
+.userInfoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.userContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userDetailsContainer {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.employeeName {
+  margin-bottom: 0px;
+}
+
+.userRole {
+  margin-bottom: -5px;
+}

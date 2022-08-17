@@ -1,0 +1,38 @@
+.modalBody {
+  box-sizing: border-box;
+  padding: 0 50px 20px 50px;
+  height: auto;
+  min-height: 400px;
+  max-height: calc(100vh - 310px);
+  overflow-y: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.modalBody::-webkit-scrollbar {
+  display: none;
+}
+
+.selectedIcon {
+  background-color: #ebe9f1;
+}
+
+.iconWrapper {
+  padding: 8px;
+}
+
+.iconWrapper:hover {
+  background-color: #ebe9f1;
+}
+
+.rolesData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .modalBody {
+    padding: 0 150px 50px 150px;
+  }
+}

@@ -1,0 +1,19 @@
+.settingContainer {
+  padding: 15px 28px 15px 28px;
+}
+
+.navContainer {
+  margin-bottom: -16px !important;
+  bottom: 0;
+}
+
+.renderContentContainer {
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.renderContentContainer::-webkit-scrollbar {
+  display: none;
+}
